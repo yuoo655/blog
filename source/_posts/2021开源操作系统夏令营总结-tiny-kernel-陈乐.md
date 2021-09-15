@@ -1,6 +1,10 @@
 ---
 title: 2021开源操作系统夏令营总结-tiny_kernel-陈乐
+<<<<<<< HEAD:source/_posts/2021开源操作系统夏令营总结-tiny-kernel-陈乐.md
 date: 2021-09-15 08:28:18
+=======
+date: 2021-09-15 08:34:03
+>>>>>>> f7360cf3358976dca50175b506219d6b63473da5:source/_posts/2021开源操作系统夏令营总结-tiny_kernel-陈乐.md
 categories:
 	- report
 tags:
@@ -300,6 +304,8 @@ pub fn run(target:&mut Thread){
 }
 ```
 
+
+当从调度器得到的线程不是当前地址空间时候需要切换到指定的地址空间
 
 给定space_id通过一个系统调用切换到指定地址空间
 
